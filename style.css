@@ -1,0 +1,504 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+body {
+    background: url(./photos/background-snow.jpg);
+
+}
+.snowman {
+    margin-top: 550px;
+    position: absolute;
+    animation-name: Anim-1;
+    animation-delay: 0.5s;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes Anim-1 {
+ from{
+    left: 0px;
+ }
+ to {
+    left: 50px;
+ }
+}
+
+.socks {
+    margin-left: 360px;
+    position: absolute;
+    animation-name: Anim-2;
+    animation-delay: 0.5s;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes Anim-2 {
+    from{
+        left: 0px;
+    }
+    to {
+        left: 20px;
+    }
+}
+
+.santa {
+    margin-left: 1200px;
+    position: absolute;
+    animation-name: Anim-3;
+    animation-delay: 0.5s;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes Anim-3 {
+    from{
+        right: 0px;
+        top: 0px;
+    }
+    to {
+        right: 500px;
+        top: 500px;
+    }
+}
+.present { 
+    margin-left: 1400px;
+    top: 110px;
+    position: absolute;
+    animation-name: Anim-4;
+    animation-delay: 0.5s;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes Anim-4 {
+    from {
+        right: 0px;
+        top: 0px;
+    }
+    to {
+        right: 500px;
+        top: 800px;
+    }
+}
+.present2 {
+    margin-left: 1450px;
+    top: 150px;
+    position: absolute;
+    animation-name: Anim-5;
+    animation-delay: 0.5s;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes Anim-5 {
+    from {
+        right: 0px;
+        top: 0px;
+    }
+    to {
+        right:550px;
+        top: 750px;
+    }
+}
+
+    
+.couple {
+    margin-top:  660px;
+    margin-left: 450px;
+    position: absolute;
+    animation-name: Anim-6;
+    animation-delay: 0.5s;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes Anim-6 {
+    from {
+        left: 0px;
+    }
+    to{
+        left: 350px;
+    }
+
+}
+.tree {
+    margin-top: 480px;
+    margin-left: 1200px;
+    position: absolute;
+    animation-name: Anim-7;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes  Anim-7{
+    from {
+        left: 0px;
+    }
+    to {
+        left: 5px;
+    }
+}
+.snowflake1 {
+    position: absolute;
+    animation-name: Anim-8;
+    animation-delay: 0.5s;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes Anim-8 {
+    from {
+        top: 0px;
+    }
+    to{
+        top: 700px;
+    }
+}
+.snowflake2 {
+    position: absolute;
+    margin-left: 80px;
+    animation-name: Anim-9;
+    animation-delay: 0.5s;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes Anim-9 {
+    from {
+        top: 0px;
+    }
+    to{
+        top: 700px;
+    }
+}
+.snowflake3 {
+    position: absolute;
+    margin-left: 160px;
+    animation-name: Anim-10;
+    animation-delay: 0.5s;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes Anim-10 {
+    from {
+        top: 0px;
+    }
+    to{
+        top: 700px;
+    }
+}
+.snowflake4{
+    position: absolute;
+    margin-left: 240px;
+    animation-name: Anim-11;
+    animation-delay: 0.5s;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes Anim-11 {
+    from {
+        top: 0px;
+    }
+    to{
+        top: 700px;
+    }
+}
+.snowflake5 {
+    position: absolute;
+    margin-left: 320px;
+    animation-name: Anim-12;
+    animation-delay: 0.5s;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+@keyframes Anim-12 {
+    from {
+        top: 0px;
+    }
+    to{
+        top: 700px;
+    }
+}
+.snowflake6 {
+    position: absolute;
+    margin-left: 400px;
+    animation-name: Anim-13;
+    animation-delay: 0.5s;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+@keyframes Anim-13 {
+    from {
+        top: 0px;
+    }
+    to{
+        top: 700px;
+    }
+}
+.snowflake7 {
+    position: absolute;
+    margin-left: 480px;
+    animation-name: Anim-14;
+    animation-delay: 0.5s;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+@keyframes Anim-14 {
+    from {
+        top: 0px;
+    }
+    to{
+        top: 700px;
+    }
+}
+.snowflake8{
+    position: absolute;
+    margin-left: 560px;
+    animation-name: Anim-15;
+    animation-delay: 0.5s;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes Anim-15 {
+    from {
+        top: 0px;
+    }
+    to{
+        top: 700px;
+    }
+}
+.snowflake9 {
+    position: absolute;
+    margin-left: 640px;
+    animation-name: Anim-16;
+    animation-delay: 0.5s;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes Anim-16 {
+    from {
+        top: 0px;
+    }
+    to{
+        top: 700px;
+    }
+}
+.snowflake10 {
+    position: absolute;
+    margin-left: 720px;
+    animation-name: Anim-17;
+    animation-delay: 0.5s;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+@keyframes Anim-17{
+    from {
+        top: 0px;
+    }
+    to{
+        top: 700px;
+    }
+}
+.snowflake11 {
+    position: absolute;
+    margin-left: 800px;
+    animation-name: Anim-18;
+    animation-delay: 0.5s;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes Anim-18{
+    from {
+        top: 0px;
+    }
+    to{
+        top: 700px;
+    }
+}
+.snowflake12 {
+    position: absolute;
+    margin-left: 880px;
+    animation-name: Anim-19;
+    animation-delay: 0.5s;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes Anim-19 {
+    from {
+        top: 0px;
+    }
+    to{
+        top: 700px;
+    }
+}
+.snowflake13 {
+    position: absolute;
+    margin-left: 960px;
+    animation-name: Anim-20;
+    animation-delay: 0.5s;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes Anim-20 {
+    from {
+        top: 0px;
+    }
+    to{
+        top: 700px;
+    }
+}
+.snowflake14 {
+    position: absolute;
+    margin-left: 1040px;
+    animation-name: Anim-21;
+    animation-delay: 0.5s;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes Anim-21 {
+    from {
+        top: 0px;
+    }
+    to{
+        top: 700px;
+    }
+}
+.snowflake15 {
+    position: absolute;
+    margin-left: 1120px;
+    animation-name: Anim-22;
+    animation-delay: 0.5s;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes Anim-22 {
+    from {
+        top: 0px;
+    }
+    to{
+        top: 700px;
+    }
+}
+.snowflake16 {
+    position: absolute;
+    margin-left: 1200px;
+    animation-name: Anim-23;
+    animation-delay: 0.5s;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes Anim-23 {
+    from {
+        top: 0px;
+    }
+    to{
+        top: 700px;
+    }
+}
+.snowflake17 {
+    position: absolute;
+    margin-left: 1280px;
+    animation-name: Anim-24;
+    animation-delay: 0.5s;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes Anim-24 {
+    from {
+        top: 0px;
+    }
+    to{
+        top: 700px;
+    }
+}
+,.snowflake18 {
+    position: absolute;
+    margin-left: 1360px;
+    animation-name: Anim-25;
+    animation-delay: 0.5s;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes Anim-25 {
+    from {
+        top: 0px;
+    }
+    to{
+        top: 700px;
+    }
+}
+.snowflake19 {
+    position: absolute;
+    margin-left: 1440px;
+    animation-name: Anim-26;
+    animation-delay: 0.5s;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes Anim-26 {
+    from {
+        top: 0px;
+    }
+    to{
+        top: 700px;
+    }
+}
